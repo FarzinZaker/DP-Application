@@ -80,6 +80,8 @@ endpoints:
     jmx:
         unique-names: true
 
+spring.jmx.enabled: false
+
 ---
 hibernate:
     cache:
